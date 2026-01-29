@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundación Voluntariado Sin Fronteras</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <!-- Botón de menú para móviles -->
+    <button class="menu-toggle" id="menu-toggle">☰</button>
+
+    <!-- Menú lateral -->
+    <aside class="sidebar" id="sidebar">
+        <div class="logo">
+            <img src="img/logofundacion1.png" alt="Logo Fundación">
+        </div>
+        <h2>Fundación Voluntariado Sin Fronteras</h2>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <!-- Contenido principal -->
+    <main class="content">
+        <!-- Inicio -->
+        <section id="inicio" class="section bg inicio-bg">
+            <div class="overlay">
+                <h1 class="animate">Bienvenidos a la Fundación Voluntariado Sin Fronteras</h1>
+                <p class="animate">Trabajamos por un futuro mejor a través de la unión y el compromiso.</p>
+                <button class="animate" onclick="document.getElementById('nosotros').scrollIntoView({behavior:'smooth'})">
+                    Más información
+                </button>
+            </div>
+        </section>
+
+        <!-- Nosotros -->
+        <section id="nosotros" class="section bg nosotros-bg">
+            <div class="overlay">
+                <h2 class="animate">Sobre Nosotros</h2>
+                <div class="subsection animate">
+                    <h3>Nuestra Fundación</h3>
+                    <p>Somos una organización no gubernamental que persigue el interés o utilidad común y el mejoramiento de la calidad de vida, el bienestar común o de interés de la comunidad teniendo como propósito fundamental la capacitación y entrenamiento en primeros auxilios, rcp, atención pre hospitalaria, formación de brigadistas, medicina táctica de urgencias y emergencias, salvamento acuático, entre otros, a nivel nacional e internacional.</p>
+                </div>
+                <div class="subsection animate">
+                    <h3>Objetivos</h3>
+                    <p>1. Desarrollar y ejecutar eventos en los que se capacite a profesionales de la salud, trabajadores públicos y privados, estudiantes y personal civil en primeros auxilios, rcp, atención pre hospitalaria ,brigadas de emergencia, medicina táctica, entre otros.</p>
+                    <P>2. Dictar talleres, seminarios y eventos tanto a nivel nacional como internacional. </P>
+                    <P>3. Promover e impulsar talleres, seminarios y eventos que brinden una educación integral a los profesionales de acuerdo a las normas estipuladas. </P>
+                </div>
+                <div class="subsection animate">
+                    <h3>Naturaleza juridica</h3>
+                    <p>Somos una Organización No Gubernamental, sin ánimo de lucro, apolítica, sin distingo de razas, religión o condición social, que como tal se regirá por el derecho privado, la Constitución Política Nacional, Decretos 1529 de 1990, Decreto 2150 de 1995, Decreto 0427 de 1996 y demás Normas legales vigentes, de utilidad común, la cual será vigilada conforme lo dispuesto en el ordenamiento jurídico vigente.</p>
+                    <p>Nit. 901.596.919-9</p>
+                    <p>Registro Mercantil N°s0010425</p>
+                  </div>
+               
+            </div>
+        </section>
+
+        <!-- Servicios -->
+<section id="servicios" class="section servicios-bg">
+  <div class="overlay">
+    <h2 class="animate">Cursos y Servicios</h2>
+
+    <div class="cursos-list">
+      <!-- Cada curso como bloque -->
+      <div class="curso animate" onclick="toggleCurso(this)">
+        <h3>1. Primeros Auxilios Básicos</h3>
+        
+      </div>
+
+      <div class="curso animate" onclick="toggleCurso(this)">
+        <h3>2. Formación de Brigadistas Primera Respuesta Básico</h3>
+        
+      </div>
+
+      <div class="curso animate" onclick="toggleCurso(this)">
+        <h3>3. Camilleros y Primeros Auxilios</h3>
+        
+      </div>
+
+      <div class="curso animate" onclick="toggleCurso(this)">
+        <h3>4. Primer Respondiente + Primeros Auxilios</h3>
+        
+      </div>
+
+      <div class="curso animate" onclick="toggleCurso(this)">
+        <h3>5. Primeros Auxilios Intermedio</h3>
+        
+      </div>
+
+      <div class="curso animate" onclick="toggleCurso(this)">
+        <h3>6. RCP y DEA Presencial</h3>
+        
+      </div>
+
+      <div class="curso animate" onclick="toggleCurso(this)">
+        <h3>7. Primeros Socorros Urbanos (Operador Turístico)</h3>
+        
+      </div>
+
+      <div class="curso animate" onclick="toggleCurso(this)">
+        <h3>8. Soporte Vital Básico</h3>
+       
+      </div>
+
+      <div class="curso animate" onclick="toggleCurso(this)">
+        <h3>9. Soporte Vital Avanzado</h3>
+       
+      </div>
+
+      <div class="curso animate" onclick="toggleCurso(this)">
+        <h3>10. Salvamento Acuático Aguas Confinadas</h3>
+       
+      </div>
+
+      <div class="curso animate" onclick="toggleCurso(this)">
+        <h3>11. Atención Víctimas Violencia Sexual - Virtual</h3>
+        
+      </div>
+
+      <div class="curso animate" onclick="toggleCurso(this)">
+        <h3>12. Humanización en los Servicios de Salud - Virtual</h3>
+       
+      </div>
+
+      <div class="curso animate" onclick="toggleCurso(this)">
+        <h3>13. Manejo del Duelo - Virtual</h3>
+        
+      </div>
+
+      <div class="curso animate" onclick="toggleCurso(this)">
+        <h3>14. Atención Integral a Víctimas de Ataques con Agentes Químicos</h3>
+       
+      </div>
+
+      <div class="curso animate" onclick="toggleCurso(this)">
+        <h3>15. Medicina Táctica TCCC y TEC – STOP THE BLEED</h3>
+       
+      </div>
+    </div>
+  </div>
+</section>
+
+
+        <!-- Contacto -->
+        <section id="contacto" class="section">
+    <h2 class="animate">Contacto</h2>
+    <p class="animate">Síguenos en nuestras redes sociales:</p>
+    <ul class="social animate">
+        <li>
+            <a href="https://www.facebook.com/people/Fundación-Voluntariado-Sin-Fronteras/100095535283824/?rdid=6kXJB3vUYdj9Tj79&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1Hj2Hnyp2z%2F" target="_blank" class="btn-social facebook">
+                <i class="fab fa-facebook-f"></i>
+                Facebook
+            </a>
+        </li>
+        
+        <li>
+            <a href="https://www.instagram.com/fundavoluntariadosinfronteras?igsh=MThtb3FvZ3pkcWsyYw%3D%3D" target="_blank" class="btn-social instagram">
+                <i class="fab fa-instagram"></i>
+                Instagram
+            </a>
+        </li>
+        
+        <li>
+            <a href="https://wa.me/+573128960363" target="_blank" class="btn-social whatsapp">
+                <i class="fab fa-whatsapp"></i>
+                WhatsApp
+            </a>
+        </li>
+        
+    </ul>
+   <img src="img/logofundacion.png" alt="img14">
+          
+</section>
+        <section>
+        <footer>
+            &copy; 2026 Fundación Voluntariado Sin Fronteras. Todos los derechos reservados.
+        </section>
+    </main>
+</body>
+</html>
